@@ -13,7 +13,7 @@ export default function LoginScreen() {
 
   if (showReset) {
     return (
-      <div style={{ animation: "fade .2s" }}>
+      <div style={{ animation: "fade .3s" }}>
         <PasswordResetScreen />
         <p
           onClick={() => setShowReset(false)}
@@ -32,7 +32,6 @@ export default function LoginScreen() {
     );
   }
 
-  // Submit
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
