@@ -1,15 +1,3 @@
-/*
-Usage:
-
-<AuthProvider config={...}>
-  <App />
-</AuthProvider>
-
-Anywhere in the app:
-
-const { user, login, logout, getToken } = useAuth();
-*/
-
 import React, {
   createContext,
   useContext,
